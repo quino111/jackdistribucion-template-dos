@@ -7,7 +7,7 @@
   --green-blue-crayola: hsl(202, 75%, 47%);
   --prussian-blue: hsl(202, 72%, 15%);
   --eerie-black: hsl(210, 11%, 15%);
-  --dark-orange: hsl(32, 100%, 50%);
+--dark-orange:#365ef7;   /*  hsl(32, 100%, 50%); */
   --alice-blue: hsl(203, 100%, 97%);
   --light-gray: hsl(0, 0%, 80%);
   --indigo-dye: hsl(202, 64%, 26%);
@@ -126,6 +126,7 @@ body {
   line-height: 1.7;
   position: relative!important;
   overflow-y: scroll!important;
+  transform: none!important;
 }
 
 :focus-visible { outline-offset: 4px; }
